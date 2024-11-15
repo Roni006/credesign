@@ -11,6 +11,7 @@ VERSION     : 1.0.0
     --global-font: "Jost", sans-serif;
     --menu-hover-color: #FF6B00;
     --hero-bg: rgb(255, 243, 234);
+    --light-color: #606060;
 
 }
 
@@ -245,6 +246,65 @@ h6 {
     padding: 25px 0 13px 0;
 }
 /*SERVICE SECTION END */
+
+/*EXPERIENCE SECTION START */
+.experience-section{
+    background-color: var(--hero-bg);
+    margin: 70px 0;
+    padding: 50px 0;
+}
+ 
+.exp-mt h4{
+    font-weight: 500;
+    margin: 25px 0;
+}
+.exp-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+/* .exp-block1{
+
+} */
+.exp-bg{
+    background-color: var(--white-color);
+    width: 425px;
+    border-radius: 5px;
+    padding: 30px 35px;
+}
+.exp-title h4{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.exp-date p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: var(--light-color);
+}
+.exp-info p{
+    font-size: 16px;
+    color: var(--light-color);
+}
+/*EXPERIENCE SECTION END */
+
+/*PORTFOLIO SECTION START */
+.portfolio-section{
+    padding:0 0 50px  0;
+}
+.portfolio1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+}
+.portfolio1 .img1 img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+/*PORTFOLIO SECTION END */
 
 /* SECTION START */
 /* SECTION END */

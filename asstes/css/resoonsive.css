@@ -1,4 +1,9 @@
 /* @media(max-width: px) */
+@media(max-width: 1200px){
+    .portfolio1 .img1 img{
+        width: 350px;
+    }
+}
 @media(max-width: 1130px){
     .hero-title h1{
         font-size: 60px;
@@ -7,8 +12,17 @@
         width: 500px;
     }
     .service-row{
+        flex-wrap: wrap; 
+    }
+    .exp-content{
         flex-wrap: wrap;
-
+    }
+    .exp-mt h4{
+        text-align: center;
+        margin-top: 35px;
+    } 
+    .portfolio1 .img1 img{
+        width: 300px;
     }
 }
 @media(max-width: 1050px){
@@ -25,6 +39,12 @@
     .hero-details p{
         padding: 30px 0;
     } 
+    .portfolio1 .img1 img{
+        width: 100%;
+    }
+    .portfolio1{
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width: 750px){ 
@@ -68,5 +88,11 @@
     }
     .design-block{
         flex-wrap: wrap;
+    }
+    .exp-bg{
+        width: 350px;
+    }
+    .experience-section{
+        padding: 40px 15px 30px 15px;
     }
 }
