@@ -12,6 +12,8 @@ VERSION     : 1.0.0
     --menu-hover-color: #FF6B00;
     --hero-bg: rgb(255, 243, 234);
     --light-color: #606060;
+    --testimonial-light-bg:#FFF5EF;
+    --partners-border-color: #FFE2D1
 
 }
 
@@ -115,13 +117,39 @@ h6 {
 .hero-section {
     background-color: var(--hero-bg);
 }
-
+.sub-heading{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;  
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    border:  1px solid var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subcircle{
+    width: 8px;
+    height: 8px;
+    border:  1px solid var(--black-color);
+    border-radius: 50%;
+}
 .hero-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.center{
+   margin: 0 auto;
+}
 .hero-title h1 {
     line-height: 80px;
     margin-top: 15px;
@@ -155,10 +183,7 @@ h6 {
     display: flex;
     justify-content: column-reverse;
 }
-
-/* .design-content{
-    margin-bottom: 30px;
-} */
+ 
 .design-block {
     display: flex;
     align-items: center;
@@ -214,7 +239,7 @@ h6 {
 
 .service-top {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 .service-title h2 {
@@ -305,6 +330,61 @@ h6 {
     transition: 0.2s ease-in-out;
 }
 /*PORTFOLIO SECTION END */
+
+/*TESTIMONIAL SECTION START */
+.testimonial-section{
+    padding: 70px 0;
+}
+.testi-content-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+.testimonial-content{
+    width: 425px;
+    padding: 40px 30px 60px 30px;
+    border-radius: 8px;
+    background: var(--testimonial-light-bg);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.testimonial-content:hover{
+    background-color: var(--hero-bg);
+    opacity: 1;
+}
+.testimonial-row{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    margin-bottom: 20px;
+
+}
+.testi-text p{
+    color: var(--light-color);
+}
+/*TESTIMONIAL SECTION END */
+
+/*PARTNERS SECTION START */
+.partners-section{
+    
+}
+.partners-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 50px;
+}
+.partners1{
+    border: 2px solid var(--partners-border-color); 
+    width: 200px;
+    height: 130px;
+    border-radius: 6px;
+    padding: 30px 65px;
+}
+/*PARTNERS SECTION END */
 
 /* SECTION START */
 /* SECTION END */

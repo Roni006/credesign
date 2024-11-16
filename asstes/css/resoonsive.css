@@ -24,6 +24,10 @@
     .portfolio1 .img1 img{
         width: 300px;
     }
+    .partners-row{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
 }
 @media(max-width: 1050px){
     .menus{
@@ -44,6 +48,10 @@
     }
     .portfolio1{
         flex-wrap: wrap;
+    }
+    .testi-content-row{
+        flex-wrap: wrap;
+        row-gap: 20px;
     }
 }
 
