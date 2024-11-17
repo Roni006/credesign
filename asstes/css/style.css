@@ -26,6 +26,7 @@ VERSION     : 1.0.0
 
 body {
     font-family: var(--global-font);
+    margin-bottom: 300px;
 }
 
 h1 {
@@ -423,6 +424,67 @@ h6 {
 }
 
 /*BLOG SECTION END */
+
+
+/*CONTACT SECTION START */
+.contact-left{
+    width: 900px;
+}
+.contact-right{
+    width: 450px;
+}
+.contact-bottom{
+    display: flex; 
+    gap: 80px;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+    align-items: center;  
+    column-gap: 25px; 
+} 
+.inputs input{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 6px;
+    border: 3px solid var(--hero-bg);
+    outline: none;
+}
+::placeholder{
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+    padding: 15px 20px 0 20px;
+    outline: none;
+    border: 3px solid var(--hero-bg);
+    resize: none;
+    font-size: 16px;
+}
+.from-btn a{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--menu-hover-color);
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: 500;
+}
+.from-icon{
+    background-color: var(--hero-bg);
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.contant1{
+    display: flex;
+    align-items: center; 
+}
+/*CONTACT SECTION END */
 
 /* SECTION START */
 /* SECTION END */

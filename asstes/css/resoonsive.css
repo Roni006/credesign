@@ -57,6 +57,15 @@
         flex-wrap: wrap;
         row-gap: 20px;
     }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 400px;
+    }
+    .contact-bottom{
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width: 750px){ 
@@ -118,5 +127,8 @@
     }
     .blog-title h3{
         font-size: 18px;
+    }
+    textarea{
+        height: 180px;
     }
 }
