@@ -386,5 +386,43 @@ h6 {
 }
 /*PARTNERS SECTION END */
 
+/*BLOG SECTION START */
+.blog-section{
+    padding: 120px 0;
+}
+.blog-row{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    justify-content: center;
+}
+.blog1{
+    border: 2px solid var(--hero-bg); 
+    width: 425px;
+    border-radius: 5px;
+}
+.blog-details{
+    padding: 30px 30px;
+}
+.blog-date p{
+    color: var(--light-color);
+    margin-bottom: 20px;
+}
+.blog-title h3{
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.blog-btn a{
+    text-decoration: none;
+    color: var(--menu-hover-color);
+    font-weight: 600;
+}
+.blog-btn a:hover .bbtn{
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+/*BLOG SECTION END */
+
 /* SECTION START */
 /* SECTION END */
