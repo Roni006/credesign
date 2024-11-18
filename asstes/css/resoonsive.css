@@ -66,6 +66,16 @@
     .contact-bottom{
         flex-wrap: wrap;
     }
+    .footer-row{
+        flex-wrap: wrap;
+        padding: 0 15px; 
+    }
+    .footer-icons{
+        margin-top: 30px;
+    } 
+    .footer3{
+        padding-bottom: 20px;
+    }
 }
 
 @media(max-width: 750px){ 
@@ -83,6 +93,13 @@
     .service-title h2{
         font-size: 35px;
     }
+    .footer-menu{
+        margin-top: 25px;
+        
+    }
+    .service{
+        margin-top: 45px;
+    }
 }
 
 @media(max-width: 550px){
@@ -95,6 +112,13 @@
     }
     .service-title h2{
         font-size: 30px;
+    }
+    .fb-row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fb-left{
+        margin-top: 15px;
     }
 }
 
@@ -130,5 +154,8 @@
     }
     textarea{
         height: 180px;
+    }
+    .footer1{
+        margin-bottom: 30px;
     }
 }
